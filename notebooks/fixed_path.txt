@@ -1,0 +1,4 @@
+# Define paths for notebook environment
+BASE_DIR = Path(os.getcwd()).parent
+DATA_DIR = BASE_DIR / 'data/final/Italy'
+IMAGES_DIR = BASE_DIR / 'outputs/images'
